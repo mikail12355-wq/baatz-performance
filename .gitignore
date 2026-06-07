@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# production
+/.next/
+/out/
+
+# env
+.env.local
+.env*.local
+
+# uploads (tracked via .gitkeep)
+/public/uploads/images/*.jpg
+/public/uploads/images/*.jpeg
+/public/uploads/images/*.png
+/public/uploads/images/*.webp
+/public/uploads/videos/*.mp4
+/public/uploads/videos/*.mov
+/public/uploads/videos/*.webm
+
+# original source photos (already copied to public/images)
+/Fotos/
+
+# videos are too large for GitHub (65 MB)
+/public/videos/*.mp4
+/public/videos/*.mov
+/public/videos/*.webm
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
