@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/baatz-performance',
   images: {
-    formats: ['image/avif', 'image/webp'],
+    unoptimized: true,
   },
 }
 
