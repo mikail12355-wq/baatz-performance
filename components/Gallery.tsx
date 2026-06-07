@@ -61,6 +61,8 @@ function GalleryCard({
   )
 }
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? ''
+
 export default function Gallery() {
 
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
@@ -163,13 +165,11 @@ export default function Gallery() {
               className="relative"
               onClick={(e) => e.stopPropagation()}
             >
-              <Image
-                src={current.src}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={`${BASE}${current.src}`}
                 alt={current.label}
-                width={1600}
-                height={1200}
-                className="max-w-[90vw] max-h-[85vh] w-auto h-auto object-contain"
-                unoptimized
+                className="max-w-[90vw] max-h-[85vh] object-contain"
               />
               <p className="absolute bottom-0 inset-x-0 bg-black/60 text-white text-center py-2 font-heading text-sm uppercase tracking-wider">
                 {current.label}

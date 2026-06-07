@@ -1,4 +1,6 @@
-export default function imageLoader({ src }) {
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
+export default function loader({ src }) {
   if (src.startsWith('http')) return src
-  return `/baatz-performance${src}`
+  return `${basePath}${src}`
 }
