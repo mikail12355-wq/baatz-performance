@@ -3,7 +3,8 @@ const nextConfig = {
   output: 'export',
   basePath: '/baatz-performance',
   images: {
-    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './imageLoader.js',
   },
 }
 
