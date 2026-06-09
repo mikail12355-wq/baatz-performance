@@ -16,15 +16,15 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Baatz Performance – Fahrzeugaufbereitung & Lackpflege Berlin',
+  title: 'Baatz Performance – Fahrzeugaufbereitung & Lackpflege Werder (Havel)',
   description:
-    'Professionelle Fahrzeugaufbereitung, Lackpflege, Keramik-Beschichtung und Detailing in Berlin. Qualität die begeistert.',
+    'Professionelle Fahrzeugaufbereitung, Lackpflege, Keramik-Beschichtung und Detailing in Werder (Havel). Qualität die begeistert.',
   keywords:
-    'Fahrzeugaufbereitung Berlin, Lackpflege Berlin, Keramikbeschichtung Berlin, Detailing Berlin, Autoaufbereitung Berlin, Baatz Performance',
+    'Fahrzeugaufbereitung Werder (Havel), Lackpflege Werder (Havel), Keramikbeschichtung Werder (Havel), Detailing Werder (Havel), Autoaufbereitung Werder (Havel), Baatz Performance',
   openGraph: {
-    title: 'Baatz Performance – Fahrzeugaufbereitung & Lackpflege Berlin',
+    title: 'Baatz Performance – Fahrzeugaufbereitung & Lackpflege Werder (Havel)',
     description:
-      'Professionelle Fahrzeugaufbereitung, Lackpflege, Keramik-Beschichtung und Detailing in Berlin.',
+      'Professionelle Fahrzeugaufbereitung, Lackpflege, Keramik-Beschichtung und Detailing in Werder (Havel).',
     type: 'website',
     locale: 'de_DE',
   },
@@ -40,10 +40,12 @@ const structuredData = {
   '@type': 'AutoRepair',
   name: 'Baatz Performance',
   description:
-    'Professionelle Fahrzeugaufbereitung, Lackpflege, Keramik-Beschichtung und Detailing in Berlin',
+    'Professionelle Fahrzeugaufbereitung, Lackpflege, Keramik-Beschichtung und Detailing in Werder (Havel)',
   address: {
     '@type': 'PostalAddress',
-    addressLocality: 'Berlin',
+    streetAddress: 'Alte Str. 6',
+    postalCode: '14542',
+    addressLocality: 'Werder (Havel)-Glindow',
     addressCountry: 'DE',
   },
   sameAs: ['https://www.facebook.com/LackKratzerDellenPflege/'],

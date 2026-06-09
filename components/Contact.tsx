@@ -74,8 +74,8 @@ export default function Contact() {
                   </svg>
                 ),
                 label: 'Standort',
-                value: 'Berlin',
-                href: '#',
+                value: 'Alte Str. 6, 14542 Werder (Havel)-Glindow',
+                href: 'https://maps.google.com/?q=Alte+Str.+6,+14542+Werder+Havel+Glindow',
               },
               {
                 icon: (

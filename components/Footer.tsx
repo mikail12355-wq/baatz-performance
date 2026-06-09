@@ -79,7 +79,7 @@ export default function Footer() {
 
         <div className="border-t border-white/10 mt-10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-2 text-white/25 text-xs font-body">
           <p>© {new Date().getFullYear()} Baatz Performance. Alle Rechte vorbehalten.</p>
-          <p>Berlin</p>
+          <p>Werder (Havel)-Glindow</p>
         </div>
       </div>
     </footer>
