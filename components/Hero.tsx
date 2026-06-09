@@ -39,9 +39,6 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: 'easeOut' }}
         >
-          <p className="font-heading font-bold text-gold uppercase tracking-[0.3em] text-sm mb-4">
-            Berlin
-          </p>
           <h1 className="font-heading font-black text-white uppercase leading-none tracking-tight">
             <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl">Baatz</span>
             <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-gold">Performance</span>
